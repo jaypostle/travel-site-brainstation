@@ -1,0 +1,18 @@
+// Reset
+@import "partials/global/normalize";
+
+// General
+@import "partials/global/global";
+@import "partials/mixins/mixins";
+
+// Pages
+@import "partials/pages/home";
+@import "partials/pages/destinations";
+
+// Components
+@import "partials/components/cards";
+@import "partials/components/footer";
+@import "partials/components/header";
+
+// Animations
+@import "partials/animations/animations";

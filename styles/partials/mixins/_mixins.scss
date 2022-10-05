@@ -1,0 +1,10 @@
+// ** Centre Block ** //
+
+// ** Responsive Media Queries ** //
+@mixin mq($width){
+    @media(min-width: ($width)){
+        @content;
+    }
+}
+
+// @include mq($tablet){ }
