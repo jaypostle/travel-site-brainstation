@@ -2,8 +2,9 @@
 @import "partials/global/normalize";
 
 // General
+@import "partials/helpers/variables";
+@import "partials/helpers/mixins";
 @import "partials/global/global";
-@import "partials/mixins/mixins";
 
 // Pages
 @import "partials/pages/home";
