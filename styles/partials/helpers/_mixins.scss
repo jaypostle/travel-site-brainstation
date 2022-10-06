@@ -1,4 +1,15 @@
 // ** Centre Block ** //
+@mixin flex-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Max Width
+@mixin max-width {
+    max-width: 56.25rem;
+    margin: 0 auto;
+}
 
 // ** Responsive Media Queries ** //
 @mixin mq($width){

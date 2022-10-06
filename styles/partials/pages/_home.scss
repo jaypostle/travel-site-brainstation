@@ -1,11 +1,88 @@
 // ** Hero Banner ** //
+.section--hero {
+    background-color: $background-peach;
+    min-width: 100%;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    min-height: 35.9375rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: flex-start;
 
+    &__content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 75%;
+
+        h1 {
+            margin: 0;
+        }
+
+        p {
+            margin: 2rem 0rem;
+        }
+
+    }
+
+    &__figure {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-end;
+        align-items: flex-end;
+        margin: 0px;
+    }
+}
 
 
 
 
 // ** Recommendations ** //
+.section--recommendations {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 
+    .section--recommendations-wrapper {
+        @include max-width;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    
+    
+    }
+
+    &__link {
+
+    }
+
+    &__article {
+        position: relative;
+        
+
+        h4 {
+            position: absolute;
+            bottom: 1rem;
+            right: 1rem;
+            margin: 0px;
+            color: $background-white;
+        }
+    }
+
+    &__figure {
+        margin: 0px;
+    }
+
+    &__img {
+        border-radius: 5px;
+        border: 1px solid rgba(0,0,0, 0.2);
+        box-shadow: 0px 4px 4px rgba(0,0,0, 0.2);
+    }
+}
 
 
 
