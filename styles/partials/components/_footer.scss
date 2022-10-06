@@ -14,6 +14,13 @@
         }
     }
 
+    a {
+        transition: all 400ms ease;
+        &:hover {
+            color: $accent-orange;
+        }
+    }
+
     &__contact-wrapper {
         
     }
@@ -38,8 +45,14 @@
         li {
 
         }
+        
         img {
             max-width: 80%;
+            transition: all 400ms ease;
+            &:hover {
+                transform: translateY(-0.5rem);
+                scale: 1.05;
+            }
         }
     }
 

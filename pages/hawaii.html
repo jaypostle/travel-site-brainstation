@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Site | Hawaii</title>
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
     <header class="header">
         <div class="header__logo-wrapper">
-            <img class="header_logo" src="" alt=""><h2>Travel Site</h2>
+            <a href="../index.html"><h2>Travel Site</h2></a>
         </div>
         <nav class="header__nav">
             <ul>
@@ -20,12 +21,14 @@
             </ul>
         </nav>
     </header>
+
     <main class="main">
+        
         <!-- Section Itinerary -->
-        <section class="section--hero--itinerary">
+        <section class="section--itinerary section--itinerary--hawaii">
             <h1>Hawaii</h1>
-            <div class="section--hero__itinerary-wrapper">
-                <article class="section--hero__day-plan">
+            <div class="section--itinerary__wrapper">
+                <article class="section--itinerary__day-plan">
                     <h3>Friday</h3>
                     <ul>
                         <li><a href="#" class="secondary-cta">Breakfast</a></li>
@@ -34,7 +37,7 @@
                         <li><a href="#" class="secondary-cta">Snorkelling</a></li>
                     </ul>
                 </article>
-                <article class="section--hero__day-plan">
+                <article class="section--itinerary__day-plan">
                     <h3>Saturday</h3>
                     <ul>
                         <li><a href="#" class="secondary-cta">Breakfast</a></li>
@@ -43,7 +46,7 @@
                         <li><a href="#" class="secondary-cta">Snorkelling</a></li>
                     </ul>
                 </article>
-                <article class="section--hero__day-plan">
+                <article class="section--itinerary__day-plan">
                     <h3>Sunday</h3>
                     <ul>
                         <li><a href="#" class="secondary-cta">Breakfast</a></li>
@@ -59,16 +62,16 @@
     <!-- Components Footer -->
     <footer class="footer">
         <div class="footer__nav-wrapper">
-            <nav>
+            <nav class="footer__contact-wrapper">
                 <h3>Contact</h3>
                 <div class="footer__contact-wrapper">
                     <p class="footer__contact-label">Email</p>
-                    <p class="footer__contact-info">info@travelsite.com</p>
+                    <p class="footer__contact-info"><a href="mailto:info@travelsite.com">info@travelsite.com</a></p>
                 </div>
             </nav>
-            <nav>
+            <nav class="footer__hours-wrapper">
                 <h3>Hours</h3>
-                <div class="footer__hours-wrapper">
+                <div class="footer__hours-wrapper__flex">
                     <div class="footer__contact-wrapper">
                         <p class="footer__contact-label">Monday - Friday</p>
                         <p class="footer__contact-info">9:00 AM - 5:00 PM</p>
@@ -83,7 +86,7 @@
                     </div>
                 </div>
             </nav>
-            <nav>
+            <nav class="footer__social-wrapper">
                 <h3>Social</h3>
                 <nav>
                     <ul>
@@ -95,5 +98,6 @@
             </nav>
         </div>
     </footer>
+    <script src="../scripts/scripts.js"></script>
 </body>
 </html>

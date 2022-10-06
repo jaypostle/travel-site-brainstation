@@ -1,0 +1,80 @@
+// Itinerary
+.section--itinerary {
+    // position: relative;
+    background-image: url("../assets/images/hawaii.jpg");
+    min-width: 100%;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+
+    &--greece {
+        background-image: url("../assets/images/greece.jpg"); 
+    }
+
+    &--iceland {
+        background-image: url("../assets/images/iceland.jpg");
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 0.25rem;
+        color: $background-white;
+    }
+    &__wrapper {
+        @include max-width;
+        margin: 2rem auto 4rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        
+        text-align: center;
+    }
+}
+
+
+
+.section--itinerary__day-plan {
+    position: relative;
+    border-radius: 5px;
+    // border: 1px solid rgba(0,0,0, 0.2);
+    // box-shadow: 0px 4px 4px rgba(0,0,0, 0.2);
+    background-color: $background-white;
+    padding: 0rem 1rem 2rem;
+ 
+    h3 {
+        border-bottom: 2px solid $primary-text-color;
+    }
+    ul {
+        list-style-type: none;
+        padding-inline-start: 0px;
+        margin-top: 2rem;
+        
+    }
+    li {
+        // padding: 1rem 2rem;
+        margin-bottom: 1rem;
+        width: 100%;
+        
+        
+    }
+
+    a {
+        width: 100%;
+        display: block;
+        transition: all 400ms ease;
+        background-color: $background-peach;
+        border-radius: 4px;
+        padding: 1rem;
+
+        &:hover {
+            background-color: $primary-text-color;
+            color: $background-white;
+        }
+    }
+}
+
+
+

@@ -20,6 +20,7 @@
             &:hover {
                 border-bottom: 2px solid $accent-orange;
             }
+
         }
         
     }
@@ -27,8 +28,20 @@
     // Logo
     .header__logo-wrapper {
         @include flex-centre;
+
+        a {
+            transform: all 400ms ease;
+            &:hover h2 {
+                color: $accent-orange;
+            }
+        }
         h2 {
             margin: 0px;
+
         }
     }
+}
+
+.current {
+    border-bottom: 2px solid $accent-orange;
 }

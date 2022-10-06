@@ -49,6 +49,17 @@ section {
         width: 12.5rem;
         padding: 0.75rem 2rem;
         text-align: center;
+        border: 2px solid $accent-orange;
+
+        transition: all 400ms ease;
+            &:hover {
+                transform: translateX(0.75rem);
+                background-color: #a9603f;
+                background-color: $background-white;
+                color: $primary-text-color;
+            }
+
+           
 }
 
         // ** Icons  ** //
