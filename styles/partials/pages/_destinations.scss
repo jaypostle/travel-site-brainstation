@@ -6,7 +6,7 @@
     max-width: 100%;
     background-position: center;
     background-size: cover;
-    height: 95vh;
+    height: 80vh;
 
     &--greece {
         background-image: url("../assets/images/greece.jpg"); 
@@ -16,6 +16,7 @@
         background-image: url("../assets/images/iceland.jpg");
     }
 
+    
     h1 {
         font-size: 3rem;
         margin-bottom: 0.25rem;
